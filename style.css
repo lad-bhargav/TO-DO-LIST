@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #A59D84;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#heading{
+    margin-top: 100px;
+}
+#check{
+    border-radius: 50%;
+}
+.listInput{
+    border: none;
+    background: none;
+    color: black;
+    outline: none;
+    height: 25px;
+    width: 275px;
+    padding: 7px;
+    margin-top: 10px;
+}
+.listInput::placeholder{
+    color: black;
+}
